@@ -1,4 +1,4 @@
-date_time,battery_quantity,state
+time,qty,state
 2026-07-14T22:45+08:00,53,battery
 2026-07-14T23:00+08:00,53,battery
 2026-07-14T23:15+08:00,52,battery
