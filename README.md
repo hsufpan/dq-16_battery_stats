@@ -22,6 +22,4 @@ last updated/modified: 260909-093859
 
 # file index
 
-|#|start|end|file|
-|:-:|:-:|:-:|:-:|
-|1|2026-07-14-2245|2026-08-13-1430|[csv](/2026-07-14-2245.2026-08-13-1430.csv)
+[file index](/file-index.md)
