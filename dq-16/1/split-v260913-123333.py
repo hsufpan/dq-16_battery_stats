@@ -3,15 +3,15 @@ from pathlib import Path
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
-# 创建隐藏的 Tk 窗口
+# 创建隐藏的Tk窗口
 root = tk.Tk()
 root.withdraw()
 
-# 选择 CSV 文件
+# 选择CSV文件
 input_path = filedialog.askopenfilename(
-    title="Select a CSV File",
+    title="Select CSV File",
     filetypes=[
-        ("CSV 文件", "*.csv")
+        ("CSV File", "*.csv")
     ]
 )
 
@@ -22,7 +22,7 @@ input_file = Path(input_path)
 
 # 选择保存位置
 output_dir = filedialog.askdirectory(
-    title="Select a Path to Save"
+    title="Save"
 )
 
 if not output_dir:
@@ -30,7 +30,7 @@ if not output_dir:
 
 output_dir = Path(output_dir)
 
-# 以字符串形式读取，保持 CSV 原始内容
+# 以字符串形式读取，保持CSV原始内容
 df = pd.read_csv(
     input_file,
     dtype=str,
